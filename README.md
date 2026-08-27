@@ -9,6 +9,8 @@
 Importez une image, créez ou appliquez un look, comparez le rendu et exportez une LUT sans installation ni envoi de fichiers.
 
 [![Application](https://img.shields.io/badge/application-en%20ligne-d8ff3e?style=flat&logo=googlechrome&logoColor=090a0d)](https://galex-le-penguin.github.io/LUT-Studio/)
+[![Version](https://img.shields.io/github/v/release/GaLeX-Le-Penguin/LUT-Studio?display_name=tag&sort=semver&label=version)](https://github.com/GaLeX-Le-Penguin/LUT-Studio/releases/latest)
+[![Téléchargements](https://img.shields.io/github/downloads/GaLeX-Le-Penguin/LUT-Studio/total?label=t%C3%A9l%C3%A9chargements)](https://github.com/GaLeX-Le-Penguin/LUT-Studio/releases)
 ![HTML5](https://img.shields.io/badge/HTML5-fichier%20autonome-E34F26?logo=html5&logoColor=white)
 ![Traitement](https://img.shields.io/badge/traitement-100%25%20local-60d394)
 [![Licence MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](LICENSE)
@@ -16,7 +18,7 @@ Importez une image, créez ou appliquez un look, comparez le rendu et exportez u
 ### [Ouvrir LUT Studio](https://galex-le-penguin.github.io/LUT-Studio/)
 
 [Utiliser en ligne](https://galex-le-penguin.github.io/LUT-Studio/) ·
-[Télécharger](https://github.com/GaLeX-Le-Penguin/LUT-Studio/archive/refs/heads/main.zip) ·
+[Télécharger](https://github.com/GaLeX-Le-Penguin/LUT-Studio/releases/latest/download/LUT-Studio.html) ·
 [Signaler un problème](https://github.com/GaLeX-Le-Penguin/LUT-Studio/issues)
 
 </div>
@@ -71,19 +73,10 @@ Ouvrez [LUT Studio sur GitHub Pages](https://galex-le-penguin.github.io/LUT-Stud
 
 ## Utilisation locale
 
-1. Téléchargez [l’archive du projet](https://github.com/GaLeX-Le-Penguin/LUT-Studio/archive/refs/heads/main.zip)
-2. Extrayez complètement l’archive
-3. Ouvrez `index.html` dans un navigateur moderne
+1. Téléchargez [`LUT-Studio.html`](https://github.com/GaLeX-Le-Penguin/LUT-Studio/releases/latest/download/LUT-Studio.html)
+2. Ouvrez le fichier dans un navigateur moderne
 
-Aucune installation et aucun exécutable ne sont requis.
-
-```text
-LUT-Studio/
-├── index.html
-├── README.md
-├── README_EN.md
-└── LICENSE
-```
+Aucune extraction, installation ou exécutable n’est requis.
 
 ---
 
@@ -121,7 +114,7 @@ Copyright © 2026 Galex.
 Développé par **GLX**.
 
 [Application](https://galex-le-penguin.github.io/LUT-Studio/) ·
-[Téléchargement](https://github.com/GaLeX-Le-Penguin/LUT-Studio/archive/refs/heads/main.zip) ·
+[Téléchargement](https://github.com/GaLeX-Le-Penguin/LUT-Studio/releases/latest/download/LUT-Studio.html) ·
 [Issues](https://github.com/GaLeX-Le-Penguin/LUT-Studio/issues)
 
 </div>
