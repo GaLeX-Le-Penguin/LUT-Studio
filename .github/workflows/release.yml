@@ -1,0 +1,29 @@
+name: Publish release
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - ".github/workflows/release.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Prepare standalone file
+        run: cp index.html LUT-Studio.html
+      - name: Publish v1.0.0
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view v1.0.0 --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release upload v1.0.0 LUT-Studio.html --clobber --repo "$GITHUB_REPOSITORY"
+          else
+            gh release create v1.0.0 LUT-Studio.html --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "LUT Studio v1.0.0" --notes "Première version publique de LUT Studio. Application HTML autonome, utilisable en ligne ou localement."
+          fi
